@@ -1,0 +1,34 @@
+.cell {
+ width:90px;
+ height:90px;
+ background-color:lightblue;
+ border:1px solid black;
+ color:red;
+ display: flex; /* Enable flexbox */
+ justify-content: center; /* Center horizontally */
+ align-items: center; /* Center vertically */
+ font-size: 36px; /* Increase font size for visibility */
+ cursor: pointer;
+ 
+}
+#parent{
+    width:25%;
+    row-gap:1rem;
+    column-gap:10px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin: 0 auto;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-JkApx7jRuyDfBRJCrMRzGIqKliett_wnEg&s");
+    background-size: cover;
+           
+            background-repeat: no-repeat;
+            
+}
+h1{
+    color:antiquewhite;
+}
+button{
+    padding:15px;
+}
